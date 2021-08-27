@@ -1,0 +1,174 @@
+
+html{ margin: 0px; padding: 0px; }
+
+body{
+  font-family:arial ;
+  background:#fff;
+ /* text-align: center;  */
+
+
+}
+
+#logo{
+  float: left;
+  border: px solid red;
+  padding: 10px;
+  margin: 10px 0 0 0px;
+  clear: both;
+}
+
+ #menu{
+  border: px solid #ccc;
+  text-align: left;
+  border-radius:10px;
+  background-color:#2E8B57;
+   float: right;
+   margin: 20px;
+   padding: 10px;
+}
+
+ #menu ul{
+  list-style: none;
+  height: 20px;  
+}
+
+ #menu ul li{
+  float:left;
+  padding:5px 40px 5px 0;
+}
+ #menu ul a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  background-color:#FFF;
+  border-radius: 5px;
+  padding: 5px 20px 5px 15px ;
+  margin:  5px 15px 5px 15px ;
+  clear: both;
+}
+
+#main{
+
+  border: px solid red;
+   margin: 10px;
+   width: auto;
+   height: auto;
+   border-radius:5px;
+    clear: both;
+}
+
+#imagemPaginaPrincipal{
+
+  border: px solid red;
+  padding: 20px;
+  font-size: 16px;
+  float: left;
+ 
+}
+#imagemPaginaPrincipal .imgPequena{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: auto;
+  height: 330px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+.imgProduto{
+   border: px solid #ccc;
+  width: 210px;
+  height: 220px;
+   float: left;
+   
+}
+#imagemPaginaPrincipal .comprar{
+  border: 1px solid #ccc;
+  background: #2E8B57;
+  color: black;
+  margin: 10px 10px 10px 40px;
+  padding: 10px;
+  border-radius: 10px;
+ float: left;
+ clear: both;
+
+}
+#imagemPaginaPrincipal .destaque{
+  border: 1px solid #ccc;
+   border-radius: 10px;
+  width: auto;
+  height: auto;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto{
+  border: 1px solid #ccc;
+   border-radius: 10px;
+  width: auto;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+#imagemPaginaPrincipal .imgDestaqueInformacaoProduto img{
+  border: 1px solid #ccc;
+  width: 600px;
+  height: auto;
+  float: left;
+  margin: 10px;
+}
+
+
+#formulario{
+  margin: 20px;
+
+  border: px solid blue;
+  padding: 30px;
+  float: center;
+  font-size: 15px;
+  text-align: justify;
+}
+#formulario form{
+  margin: 0px;
+}
+#formulario form input{
+  border-radius: 5px;
+  border: px solid blue;
+  padding: 10px 0 10px 0;
+  margin: 10px;
+  width: 650px;
+}
+#formulario form textarea{
+  border: px solid blue;
+  padding: 10px;
+  margin: 10px;
+  width: 630px;
+  height: 200px;
+}
+#formulario form button{
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  float: center;
+
+}
+
+#quemsomos{
+  border: px solid #ccc;
+  padding: 10px;
+  float: right;
+  font-size: 15px;
+  text-align: justify;
+  
+}
+
+#footer{
+  text-align: center;
+  background:#2E8B57;
+  border: 1px solid #ccc;
+  margin: 15px;
+  width: auto;
+  border-radius:5px;
+  float:center;
+  clear: both;
+}
